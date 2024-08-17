@@ -1,5 +1,4 @@
-from crewai_tools import SerperDevTool, WebsiteSearchTool, PDFSearchTool
-import os
+from crewai_tools import SerperDevTool, WebsiteSearchTool
 
 # Load environment variables
 from dotenv import load_dotenv

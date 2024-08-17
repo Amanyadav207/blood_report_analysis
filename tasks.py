@@ -14,9 +14,9 @@ with open(pdf, 'rb') as file:
         if content:
             raw_text += content
 
-# Define tasks
-print(raw_text)
+# print(raw_text)
 
+# Define tasks
 analyze_blood_test_task = Task(
     description=f'''
     You will be analyzing the following blood test report:
